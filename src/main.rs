@@ -5,8 +5,6 @@ use std::cmp;
 use std::fs::File;
 use std::io::{self, prelude::*,BufRead, BufReader};
 
-
-
 fn main() {
     let args: Vec<String> = env::args().collect();
 
